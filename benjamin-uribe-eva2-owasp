@@ -1,1 +1,44 @@
-Hola
+1) ¿Qué es OWASP y cuál es su principal objetivo? 
+R) El OWASP es un proyecto de código abierto dedicado a determinar y combatir las causas que hacen que el software sea inseguro.
+ayuda a los desarrolladores, profesionales de la seguridad y organizaciones a comprender las amenazas  
+potenciales y a adoptar practicas de seguridad que son recomendadas.
+
+2) ¿Qué es el OWASP Top 10 y por qué es importante para los desarrolladores? 
+R) El OWASP Top 10 es un informe que se actualiza con regularidad y en el que se exponen
+los problemas de seguridad de las aplicaciones web, centrándose en los 10 riesgos más importantes que enumeran
+los riesgos más críticos para la seguridad de las aplicaciones con el fin de ayudar a los desarrolladores a proteger 
+mejor las aplicaciones que diseñan e implantan.
+
+3) Describe brevemente dos de las vulnerabilidades del OWASP Top 10 2017. 
+R) 1.Componentes vulnerables y obsoletos
+La vulnerabilidad de la cadena de suministro se ha convertido en una preocupación importante en los últimos años, 
+especialmente cuando los actores de amenazas han intentado insertar código malicioso o vulnerable en bibliotecas de uso común y dependencias de terceros.
+Si una organización carece de visibilidad del código externo que se utiliza dentro de su aplicación (incluidas las dependencias anidadas) 
+y no lo escanea en busca de dependencias, entonces puede ser vulnerable a la explotación.
+2. Fallos de identificación y autenticación
+Muchas aplicaciones y sistemas requieren alguna forma de identificación y autenticación, como que un usuario demuestre su identidad ante una aplicación o un servidor
+que proporcione un certificado digital que verifique su identidad a un usuario al configurar una conexión cifrada con TLS. 
+Los fallos de identificación y autenticación se producen cuando una aplicación se basa en procesos de autenticación débiles
+o no valida correctamente la información de autenticación. 
+
+4) ¿Qué es OWASP ASVS y cuáles son sus niveles de verificación? 
+R) El OWASP ASVS es el que proporciona una base para probar los controles de seguridad técnicos de las aplicaciones web y también 
+proporciona a los desarrolladores una lista de requisitos para un desarrollo seguro. Lo que proporciona una base para probar
+los controles de seguridad técnica de las aplicaciones web y también proporciona a los desarrolladores 
+de una lista de requisitos para un desarrollo seguro.
+Los principales niveles de verificacion son: El cual tiene tres niveles de verificación: oportunista (nivel 1), estándar (nivel 2) 
+y avanzado (nivel 3).
+5) ¿Cuál es la diferencia entre los niveles 1 y 3 de OWASP ASVS? 
+R) La diferencia entre el nivel 1 y el nivel 3 de ASVS es que; El nivel 1 es el que aplica para abajo lo niveles de garantia y se puede 
+comprobar la realizacion  de pentesting a la aplicacion y el nivel 3 es el que realiza las aplicaciones  criticas, que son las que realizan
+transacciones de alto valor, que lo cual  contienen datos medicos sensibles o cualquier aplicacion que requieren el mas alto nivel de confianza.
+6) ¿Qué es el modelado de amenazas y cuáles son sus beneficios? 
+R) El modelado de amenazas es un método para identificar por adelantado posibles vulnerabilidades en la arquitectura de una aplicación.
+Consiste en diagramar una aplicación, identificar los fallos de seguridad y mitigarlos.
+7) Nombra dos metodologías de modelado de amenazas. 
+R) STRIDE: esta metodología, desarrollada por Microsoft, es un dispositivo mnemotécnico para identificar las amenazas a la seguridad. 
+   PASTA: son las siglas en inglés para "Proceso de simulación de ataques y análisis de amenazas".
+8) ¿Qué es el SDL y cómo ayuda a la seguridad del software? 
+R) El SDL proporciona requisitos de seguridad detallados y medibles para que los desarrolladores e ingenieros de Microsoft 
+reduzcan el número y la gravedad de las vulnerabilidades en nuestros productos y servicios.
+
