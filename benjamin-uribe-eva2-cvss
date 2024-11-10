@@ -1,23 +1,71 @@
-Define vulnerabilidad, amenaza y riesgo en el contexto de la seguridad informática. (2)
+1) Define vulnerabilidad, amenaza y riesgo en el contexto de la seguridad informática. (2)
+R) - Vulnerabilidad
+Es una debilidad en un sistema informático que puede ser explotada por un atacante. 
+Las vulnerabilidades pueden ser causadas por errores del usuario, fallas o características del sistema. 
+- Amenaza
+Es la posibilidad de que un agente amenazante explote una vulnerabilidad.
+Por ejemplo, la posibilidad de que un tercero descubra una contraseña con fines maliciosos. 
+- Riesgo
+Es la probabilidad de que una amenaza se convierta en un desastre. 
+Es decir, la probabilidad de que se produzca una pérdida cuando se materialice la amenaza.
+Por una parte, las vulnerabilidades son un error o debilidad 
+de un sistema de información que pone en peligro la seguridad del mismo.
+Mientras que el riesgo o amenaza informática es cualquier acción que desenlaza una vulnerabilidad informática.
 
-¿Qué es CVE y cuál es su propósito? (1)
+2) ¿Qué es CVE y cuál es su propósito? (1)
+R) es un sistema de catalogación pública que identifica y describe las vulnerabilidades de seguridad de productos de software y hardware. 
+Su propósito es crear conciencia y compartir información sobre estas vulnerabilidades, así como los efectos que podrían tener. 
 
-Menciona tres ventajas del uso de CVE. (1)
+3) Menciona tres ventajas del uso de CVE. (1)
+R) 1- Compartir los detalles de CVE es beneficioso para todas las organizaciones; Permite a las organizaciones establecer una línea
+de basepara evaluar la cobertura de sus herramientas de seguridad.
+2- Al usar el ID de CVE para una vulnerabilidad o exposición en particular, las organizaciones pueden obtener información sobre ella
+de manera rápida y precisa de una variedad de fuentes de información y coordinar sus esfuerzos.
+3- Los proyectos de código abierto utilizan CVE para fomentar la comunicación, la colaboración y la transparencia
+efectivas dentro de la comunidad de seguridad. 
+4) ¿Qué es CVSS y para qué se utiliza? (1)
+R) El CVSS es un sistema de puntuación que se utiliza para evaluar la gravedad y el riesgo de seguridad de un sistema.
+Se utiliza para valorar la gravedad y el riesgo de seguridad del sistema.
+5) Describe los tres grupos métricos del CVSS. (1)
+R) 1. Métricas Base
+Representan las constantes en el tiempo y en el entorno del usuario. Esta puntuación es la que tiene mayor
+peso a la hora de calcular la puntuación CVSS final. 
+2. Métricas temporales
+Representan las características que cambian con el tiempo pero que son constantes en el ecosistema del usuario.
+3. Métricas de entorno
+Representan el grupo de características que son únicas para el entorno de un usuario. Estas características están definidas 
+por los distintos entornos que pueden influir en el riesgo que presenta una vulnerabilidad para una organización. 
+6) Explica el concepto de "componentes con vulnerabilidades conocidas" (OWASP A9:2017). (1)
+R)  El contexto de OWASP A9:2017, "componentes con vulnerabilidades conocidas" es un tema que se refiere a la utilización de componentes
+que ya han sido identificados como vulnerables. se refiere a los fallos que pueden ocurrir cuando se utilizan 
+marcos o bibliotecas de código abierto o de terceros en una aplicación. 
+Estos fallos pueden introducirse cuando se ejecutan con los mismos privilegios de la aplicación.
+7) ¿Qué es la encriptación y cuál es su objetivo? (1)
+R)  La encriptacion es un mecanismo de seguridad que protege los datos de ser robados, alterados o vulnerados. Su objetivo es que solo 
+las personas autorizadas puedan acceder a la información que tambien permite modificar un mensaje de modo que su 
+contenido sea ilegible, salvo para su destinatario. 
+8) ¿Qué significan las siglas SOAP, WS y XML? (1)
+R) SOAP, WS y XML son las siglas que se utilizan en el ámbito de los servicios web y que tienen los siguientes significados:
+SOAP:
+Son las siglas de Simple Object Access Protocol, un protocolo que define cómo se intercambian datos XML 
+entre objetos de diferentes procesos.
+WS:
+Son las siglas de Web Services, que se refiere a una interfaz que permite la comunicación entre dos aplicaciones o máquinas a través
+de Internet. 
+XML: 
+Son las siglas de Extensible Markup Language, un formato estándar para el intercambio de datos.
+9) ¿Qué es hardening y cómo se relaciona con la seguridad de sistemas? (2)
+R) El hardening es un proceso de seguridad informática que busca fortalecer un sistema o red para que sea más
+resistente a ataques cibernéticos. Se enfoca en fortalecer la seguridad de las aplicaciones específicas
+que se ejecutan en sistemas. 
 
-¿Qué es CVSS y para qué se utiliza? (1)
-
-Describe los tres grupos métricos del CVSS. (1)
-
-Explica el concepto de "componentes con vulnerabilidades conocidas" (OWASP A9:2017). (1)
-
-¿Qué es la encriptación y cuál es su objetivo? (1)
-
-¿Qué significan las siglas SOAP, WS y XML? (1)
-
-¿Qué es hardening y cómo se relaciona con la seguridad de sistemas? (2)
-
-Describe tres acciones comunes de hardening. (2)
-
-¿Qué es un CAPTCHA y cuál es su función? (1)
-
-¿Qué se entiende por "autenticación robusta centralizada"? (2)
+10) Describe tres acciones comunes de hardening. (2)
+R) 1. Identificar los activos importantes
+   2. Establecer políticas de seguridad
+   3. Mantener los equipos actualizados
+11) ¿Qué es un CAPTCHA y cuál es su función? (1)
+R) El CAPTCHA es una prueba de seguridad que sirve para verificar si un usuario es humano y no un bot.
+La función del CAPTCHA es verificar que el usuario que está interactuando con un sitio web es humano y no un robot.
+12) ¿Qué se entiende por "autenticación robusta centralizada"? (2)
+R) Lo que se entiende sobre un  sistema de autenticación robusto centralizado es un servicio que verifica la identidad y
+las credenciales de los usuarios que desean acceder a múltiples redes, sistemas o aplicaciones.
