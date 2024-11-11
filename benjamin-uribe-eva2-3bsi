@@ -1,9 +1,19 @@
-¿Cuáles son los tres pilares de la seguridad informática y qué significan? (3 pts)
+1) ¿Cuáles son los tres pilares de la seguridad informática y qué significan? (3 pts)
+R) Dentro del pilar tecnológico existen tres elementos importantes que son: confidencialidad, integridad y disponibilidad. 
 
-¿Qué diferencia hay entre datos e información? (1 pts)
+2) ¿Qué diferencia hay entre datos e información? (1 pts)
+R) La diferencia entre los Datos es un término que se refiere a hechos, eventos, transacciones, etc., que han sido registrados.
+Es la entrada sin procesar de la cual se produce la información. Información se refiere a los datos
+que han sido procesados y comunicados de tal manera que pueden ser entendidos e interpretados por el receptor.
 
-Describe una medida para garantizar la confidencialidad. (2 pts)
+3) Describe una medida para garantizar la confidencialidad. (2 pts)
+R) Establece controles de acceso para que la información confidencial no pueda ser vista
+o descargada por terceras personas no autorizadas.
 
-¿Por qué es importante la integridad de la información? (2 pts)
+4) ¿Por qué es importante la integridad de la información? (2 pts)
+R) Porque al mantener la integridad de los datos implica salvaguardar los datos
+de una organización contra pérdidas, fugas e influencias corruptoras.
 
-Menciona un ejemplo de cómo se puede ver afectada la disponibilidad de la información. (2 pts)
+5)Menciona un ejemplo de cómo se puede ver afectada la disponibilidad de la información. (2 pts)
+R) El término de disponibilidad de la información implica la adopción de sistemas que puedan garantizar el ingreso a las personas que cuenten
+con las credenciales requeridas, así como a procesos, servicios y datos.
