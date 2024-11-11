@@ -1,9 +1,19 @@
-¿Qué significa PCI DSS y cuál es su propósito principal? (3 pts)
-
-¿A qué tipo de empresas afecta PCI DSS? (2 pts)
-
-Menciona tres ejemplos de datos que PCI DSS busca proteger. (2 pts)
-
-¿Por qué es importante la certificación PCI DSS para las empresas? (1 pts)
-
-Describe brevemente tres de los doce requisitos de PCI DSS. (2 pts)
+1) ¿Qué significa PCI DSS y cuál es su propósito principal? (3 pts)
+R)  PCI DSS son las siglas en inglés de "Estándar de segurida de datos del sector de tarjetas de pago" (PCI DSS). El marco PCI DSS orienta
+a las empresas con procesos sólidos para proteger los datosde las transacciones de los titulares de tarjetas y la información de autenticación
+de las mismas.
+2) ¿A qué tipo de empresas afecta PCI DSS? (2 pts)
+R)  PCI-DSS se aplica a todas las entidades involucradas en el procesamiento de tarjetas de pago, incluidos comerciantes, 
+procesadores, adquirentes, emisores y proveedores de servicios .
+3) Menciona tres ejemplos de datos que PCI DSS busca proteger. (2 pts)
+R) Los datos que se protegen son:
+El número primario de cuenta.
+Datos del titular de la tarjeta.
+La fecha de expiración de la tarjeta.
+4) ¿Por qué es importante la certificación PCI DSS para las empresas? (1 pts)
+R) Porque la normativa PCI DSS establece un estándar básico de protección para los consumidores y ayuda a reducir el fraude
+y las filtraciones de datos dentro de todo el ecosistema de pagos. 
+5) Describe brevemente tres de los doce requisitos de PCI DSS. (2 pts)
+R) Requisito 1: Instalar y mantener una configuración de cortafuegos para proteger los datos de los propietarios de tarjetas.
+Requisito 2: No usar contraseñas del sistema y otros parámetros de seguridad predeterminados provistos por los proveedores.
+Requisito 3: Proteger los datos almacenados de los propietarios de tarjetas.
